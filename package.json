@@ -8,13 +8,8 @@
     "build": "next build",
     "lint": "tslint --fix -p tsconfig.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Papa-het/nextjs-ts-template.git"
-  },
   "keywords": [],
   "author": "Papa-het",
-  "license": "ISC",
   "dependencies": {
     "next": "latest",
     "react": "^16.13.1",
