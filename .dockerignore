@@ -1,0 +1,7 @@
+# common sense
+node_modules
+.git
+.gitignore
+
+# build dir (build, .next, dist)
+.next

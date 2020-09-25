@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  nextjs-ts-docker:
+    container_name: nextjs-ts-docker
+    ports:
+      - "3000:80"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+      # build, .next, dist
+      - /app/.next
